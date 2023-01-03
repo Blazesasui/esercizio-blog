@@ -1,33 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Hugo 0.84.0">
-  <title>Blog Template · Bootstrap v5.0</title>
-  <link rel="stylesheet" href="assets/css/blog.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
+  <meta name="generator" content="Hugo 0.84.0" />
+  <title>Blog X</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/blog/">
-</head>
-
-
-
-
-<!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-<!-- Custom styles for this template -->
-<!-- Custom styles for this template -->
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/blog.css" />
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-light sticky-top">
+  <nav class="navbar bg-light navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img class="img-nav" src="../Esercizio Natale/assets/imgs/logo.png"
-          alt="logo"></a>
+      <a class="navbar-brand" href="index.html"><img class="img-nav" src="assets/imgs/logo.png" alt="logo" /></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -35,23 +27,23 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav gap-5">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Prima pagina</a>
+            <a class="nav-link" aria-current="page" href="#aboutpp">Prima pagina</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contatti</a>
+            <a class="nav-link" href="#contatti">Contatti</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Chi siamo</a>
+            <a class="nav-link" href="#aboutus">Chi siamo</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Articoli
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Sport</a></li>
-              <li><a class="dropdown-item" href="#">Cronaca</a></li>
-              <li><a class="dropdown-item" href="#">Gossip</a></li>
-              <li><a class="dropdown-item" href="#">Politica</a></li>
+              <li><a class="dropdown-item" href="#aboutpp">Sport</a></li>
+              <li><a class="dropdown-item" href="#aboutCronaca">Cronaca</a></li>
+              <li><a class="dropdown-item" href="#aboutGossip">Gossip</a></li>
+              <li><a class="dropdown-item" href="#aboutPolitica">Politica</a></li>
             </ul>
           </li>
         </ul>
@@ -60,274 +52,320 @@
   </nav>
 
   <main>
-    <div class="container">
-      <div class="row p-4 p-md-5 mb-4 mt-5 text-white rounded bg-dark">
+    <div id="aboutpp" class="container">
+      <div class="row p-4 p-md-5 mb-4 mt-5 text-white rounded bg-dark bg-opacity-75">
         <div class="col-6">
           <h1 class="display-4 fst-italic">Argentina campione del mondo!!</h1>
-          <p class="lead my-3">Argentina in finale ha superato la Francia 7-5 dopo i calci di rigore. I tempi
-            regolamentari si erano conclusi sul punteggio di 2-2, i supplementari 3-3.</p>
-          <p class="lead mb-0"><a target="_blank" href="https://tg24.sky.it/sport/2022/12/18/argentina-francia-finale-mondiali-2022-diretta" class="text-white fw-bold">Continua a leggere...</a></p>
+          <p class="lead my-3">
+            Argentina in finale ha superato la Francia 7-5 dopo i calci di
+            rigore. I tempi regolamentari si erano conclusi sul punteggio di
+            2-2, i supplementari 3-3.
+          </p>
+          <p class="lead mb-0">
+            <a target="_blank"
+              href="https://tg24.sky.it/sport/2022/12/18/argentina-francia-finale-mondiali-2022-diretta"
+              class="text-white fw-bold">Continua a leggere....</a>
+          </p>
         </div>
         <div class="col-6 d-flex align-items-center">
-          <img class="img-fluid" src="../Esercizio Natale/assets/imgs/campeones.jpg" alt="campeones">
+          <img class="img-fluid" src="assets/imgs/campeones.jpg" alt="campeones" />
         </div>
       </div>
     </div>
 
-    <div class="row mb-2">
-      <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-          <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-primary">World</strong>
-            <h3 class="mb-0">Featured post</h3>
-            <div class="mb-1 text-muted">Nov 12</div>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
-              additional content.</p>
-            <a href="#" class="stretched-link">Continue reading</a>
-          </div>
-          <div class="col-auto d-none d-lg-block">
-            <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
-              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em">Thumbnail</text>
-            </svg>
-
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="card mb-3 w-100">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="assets/imgs/nonsochescrivere.jpg" class="img-fluid rounded-start h-100" alt="foto-cronaca" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 id="aboutPolitica" class="card-title">Politica</h5>
+                  <p class="card-text">
+                    Lite sul decreto Rave. Fratelli d'Italia: subito
+                    commissione d'inchiesta sul passato. Ma Forza Italia: non
+                    abbassare la guardia...
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted"><a
+                        href="https://www.corriere.it/politica/22_dicembre_29/opposizioni-all-attacco-covid-letta-togliete-quelle-norme-no-vax-4e5fd432-87b6-11ed-a82c-3a1d84a66a2f.shtml"
+                        target="_blank">Continua a leggere...</a></small>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-          <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-success">Design</strong>
-            <h3 class="mb-0">Post title</h3>
-            <div class="mb-1 text-muted">Nov 11</div>
-            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
-              content.</p>
-            <a href="#" class="stretched-link">Continue reading</a>
-          </div>
-          <div class="col-auto d-none d-lg-block">
-            <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
-              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em">Thumbnail</text>
-            </svg>
-
+        <div class="col-6">
+          <div class="card mb-3 w-100">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="assets/imgs/foto-ilary -bang.jpg" class="img-fluid rounded-start h-100" alt="foto-gossip" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 id="aboutGossip" class="card-title">Gossip</h5>
+                  <p class="card-text">
+                    Feste da separata per la conduttrice Mediaset (Ilary
+                    Blasi), che in primavera tornerà in tv al timone
+                    dell'Isola dei Famosi...
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted"><a
+                        href="https://www.corrieredellosport.it/news/gossip/totti-ilary/2022/12/26-101509983/ilary_blasi_primo_natale_senza_totti_ecco_come_lo_ha_passato"
+                        target="_blank">Continua a leggere...</a></small>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row g-5">
-      <div class="col-md-8">
-        <h3 class="pb-4 mb-4 fst-italic border-bottom">
-          From the Firehose
-        </h3>
+    <section class="container bg-light mt-5 rounded bg-opacity-75">
+      <div class="row g-5">
+        <div class="col-md-8">
+          <h2 id="aboutCronaca" class="pb-4 mb-4 border-bottom">
+            I principali fatti del 2022, mese per mese
+          </h2>
 
-        <article class="blog-post">
-          <h2 class="blog-post-title">Sample blog post</h2>
-          <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+          <article class="blog-post">
+            <h3 id="aboutGennaio" class="blog-post-title fw-bold">
+              Tentato omicidio in provincia di Varese
+            </h3>
+            <p class="blog-post-meta">1 Gennaio 2022</p>
 
-          <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic
-            typography, lists, tables, images, code, and more are all supported as expected.</p>
+            <p>
+              Davide Paitoni, 40 anni, ha tentato di uccidere l'ex moglie e ha
+              ucciso il figlio di 7 anni tra Gazzada Schianno e Morazzone, in
+              provincia di Varese. L'uomo, che si trovava agli arresti
+              domiciliari per altre vicende, è stato bloccato la mattina
+              successiva a Viggiù al confine con la Svizzera dai militari
+              dell'Arma. Il bimbo è stato scoperto nell'armadio con un taglio
+              alla gola dai carabinieri durante una perquisizione a casa
+              dell'uomo. Paitoni la sera prima aveva cercato di uccidere a
+              coltellate l'ex moglie a Gazzada Schianno, dove la madre del
+              bimbo abitava con i propri genitori.
+            </p>
+            <p>
+              Le dichiarazioni di Davide: "Mi Hanno incastrato, dimostrerò la
+              mia innocenza"
+            </p>
+            <hr />
+            <h3 id="aboutFebbraio" class="blog-post-title fw-bold">
+              Maxi incendio sul traghetto intalino Euroferry Olympia
+            </h3>
+            <p class="blog-post-meta">18 Febbraio 2022</p>
+            <p>
+              Violento incendio a bordo del traghetto italiano Euroferry
+              Olympia, che ha preso fuoco al largo dell'isola greca di Corfù
+              ed era diretto a Brindisi. Undici le vittime, carbonizzate nella
+              stiva del traghetto su cui viaggiavano quasi 300 persone, tra
+              passeggeri e membri dell'equipaggio. L'incendio è stato domato
+              solo una settimana dopo.
+            </p>
+            <p>La testimonianza dei sopravvissuti: "Vivi per miracolo"</p>
+            <hr />
+            <h3 id="aboutMarzo" class="blog-post-title fw-bold">
+              Ragazzo killer uccide i genitori per soldi
+            </h3>
+            <p class="blog-post-meta">15 Marzo 2022</p>
+            <p>
+              Diego Gugole, 25 anni, ha ucciso con sei colpi di pistola i
+              genitori per impossessarsi di circa 800 mila euro. Quei soldi
+              gli sarebbero serviti per acquistare una casa e un'auto, perchè
+              non aveva "voglia di lavorare". E' successo a Chiampo (Vicenza).
+              Gugole si è costituito nella notte ed è stato portato in carcere
+              per l'accusa di omicidio premeditato aggravato.
+            </p>
+            <p>
+              Le dichiarazioni dei vicini: "abbiamo sentito i colpi dell'arma
+              e abbiamo avvertito subito le forze dell'ordine"
+            </p>
+            <hr />
+            <h3 id="aboutMaggio" class="blog-post-title fw-bold">Duplice omicidio del 57enne</h3>
+            <p class="blog-post-meta">3 Maggio 2022</p>
+            <p>
+              A Samarate, nel Varesotto, un uomo di 57 anni, Alessandro Maja
+              ha ucciso la moglie Stefania Pivetta, 56 anni, casalinga,
+              originaria di Cassano Magnago, e la figlia Giulia di 16 anni.
+              Ferito e in condizioni gravissime invece il figlio di 23
+              Nicolo'. Con questo duplice omicidio, sono già tre le tragedie
+              famigliari che hanno scosso la provincia di Varese quest'anno,
+              dopo quella del primo gennaio e quella del 24 marzo.
+            </p>
+            <p>
+              Le dichiarazioni dell'uomo: "Sentivo delle voci che mi
+              sussurravano di continuare"
+            </p>
+            <hr />
+            <h3 id="aboutGiugno" class="blog-post-title fw-bold">Elicottero precipitato</h3>
+            <p class="blog-post-meta">9 Giugno 2022</p>
+            <p>
+              Un elicottero con 7 persone a bordo (il pilota italiano, 4
+              manager turchi e 2 imprenditori libanesi) è precipitato mentre
+              sorvolava gli Appennini tra Modena e Lucca. Avrebbe dovuto
+              raggiungere la provincia di Treviso. Dopo due giorni di
+              ricerche, i soccorritori hanno ritrovato i corpi senza vita dei
+              passeggeri. L'elicottero si sarebbe schiantato sul monte Cusna
+              vicino al greto del torrente Lama, al passo degli Scaloni, a
+              1.922 metri d'altitudine, a circa due chilometri dal rifugio
+              Segheria.
+            </p>
+            <p>
+              Le dichiarazioni dei soccorritori: "Abbiamo fatto del nostro
+              meglio"
+            </p>
+            <hr />
+          </article>
+
+          <article class="blog-post">
+            <h3 class="mb-4 fw-bold">
+              Barbascura parla ai nostri microfoni del cambiamento climatico:
+            </h3>
+            <iframe id="aboutBarba" width="700" height="500" src="https://www.youtube.com/embed/H4FGjZ1OHr4"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <table class="table table-dark table-bordered mt-5 caption-top table-hover">
+              <caption class="text-center fw-bold">
+                LISTA DONATORI DEL 2022
+              </caption>
+              <thead>
+                <tr>
+                  <th>USERS</th>
+                  <th>DONAZIONE (&euro;)</th>
+                </tr>
+              </thead>
+              <tbody class="table-group-divider">
+                <tr>
+                  <td>Angelica</td>
+                  <td>100</td>
+                </tr>
+                <tr>
+                  <td>Andu</td>
+                  <td>50</td>
+                </tr>
+                <tr>
+                  <td>Sabri</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td>Alberto</td>
+                  <td>10</td>
+                </tr>
+              </tbody>
+              <tfoot class="table-group-divider">
+                <tr>
+                  <td>TOTALE</td>
+                  <td>180</td>
+                </tr>
+              </tfoot>
+            </table>
+
+            <p>
+              Grazie a tutti i donatori per aver contribuito a questo
+              fantastico progetto!
+            </p>
+          </article>
           <hr>
-          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and
-            show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
-            demonstration flowing, so be on the lookout for this exact same string of text.</p>
-          <h2>Blockquotes</h2>
-          <p>This is an example blockquote in action:</p>
-          <blockquote class="blockquote">
-            <p>Quoted text goes here.</p>
-          </blockquote>
-          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and
-            show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
-            demonstration flowing, so be on the lookout for this exact same string of text.</p>
-          <h3>Example lists</h3>
-          <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly
-            repetitive body text used throughout. This is an example unordered list:</p>
-          <ul>
-            <li>First list item</li>
-            <li>Second list item with a longer description</li>
-            <li>Third list item to close it out</li>
-          </ul>
-          <p>And this is an ordered list:</p>
-          <ol>
-            <li>First list item</li>
-            <li>Second list item with a longer description</li>
-            <li>Third list item to close it out</li>
-          </ol>
-          <p>And this is a definiton list:</p>
-          <dl>
-            <dt>HyperText Markup Language (HTML)</dt>
-            <dd>The language used to describe and define the content of a Web page</dd>
-            <dt>Cascading Style Sheets (CSS)</dt>
-            <dd>Used to describe the appearance of Web content</dd>
-            <dt>JavaScript (JS)</dt>
-            <dd>The programming language used to build advanced Web sites and applications</dd>
-          </dl>
-          <h2>Inline HTML elements</h2>
-          <p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a
-              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
-          <ul>
-            <li><strong>To bold text</strong>, use <code
-                class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.</li>
-            <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.
-            </li>
-            <li>Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use <code
-                class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code
-                class="language-plaintext highlighter-rouge">title</code> attribute for the full phrase.</li>
-            <li>Citations, like <cite>— Mark Otto</cite>, should use <code
-                class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
-            <li><del>Deleted</del> text should use <code class="language-plaintext highlighter-rouge">&lt;del&gt;</code>
-              and <ins>inserted</ins> text should use <code
-                class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
-            <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code>
-              and subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.
-            </li>
-          </ul>
-          <p>Most of these elements are styled by browsers with few modifications on our part.</p>
-          <h2>Heading</h2>
-          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and
-            show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
-            demonstration flowing, so be on the lookout for this exact same string of text.</p>
-          <h3>Sub-heading</h3>
-          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and
-            show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
-            demonstration flowing, so be on the lookout for this exact same string of text.</p>
-          <pre><code>Example code block</code></pre>
-          <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly
-            repetitive body text used throughout.</p>
-        </article>
+          <article>
+            <h3>Per effettuare una donazione, compilate il form sottostante:</h3>
+            <br>
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputNome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="inputNome" placeholder="es: Mario" />
+              </div>
+              <div class="col-md-6">
+                <label for="inputCognome" class="form-label">Cognome</label>
+                <input type="text" class="form-control" id="inputCognome" placeholder="es: Rossi" />
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputAddress" placeholder="es: mariorossi@gmail.it" />
+              </div>
+              <div class="col-12">
+                <label for="typeNumber" class="form-label">Numero Carta</label>
+                <input type="number" class="form-control" id="typeNumber" placeholder="es: 1111-2222-3333-4444" />
+              </div>
+              <div class="col-12">
+                <div class="form-check d-flex justify-content-center">
+                  <input class="form-check-input" type="checkbox" id="gridCheck" />
+                  <label class="form-check-label mx-3" for="gridCheck">
+                    Acconsenti privacy
+                  </label>
+                </div>
+              </div>
+              <div class="col-12 d-flex justify-content-center">
+                <button type="submit" class="btn btn-dark mb-4">Invia <i class="fa-solid fa-bag-shopping"></i></button>
+              </div>
+            </form>
+          </article>
+        </div>
 
-        <article class="blog-post">
-          <h2 class="blog-post-title">Another blog post</h2>
-          <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
+        <div class="col-md-4 mb-3">
+          <div class="position-sticky">
+            <div id="bs-c" class="p-4 mb-3 bg-light rounded">
+              <h4 id="aboutus" class="fst-italic fw-bold">About us</h4>
+              <p class="mb-0">
+                I nostri collaboratori:
+              <ul class="list-unstyled">
+                <li><a href="#">Cristiano Capobianco</a></li>
+                <li><a href="#">Michele Marini</a></li>
+                <li><a href="#">Valerio Ciccolella</a></li>
+              </ul>
+              </p>
+            </div>
 
-          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and
-            show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
-            demonstration flowing, so be on the lookout for this exact same string of text.</p>
-          <blockquote>
-            <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.</p>
-          </blockquote>
-          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and
-            show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
-            demonstration flowing, so be on the lookout for this exact same string of text.</p>
-          <h3>Example table</h3>
-          <p>And don't forget about tables in these posts:</p>
-          <table class="table">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Upvotes</th>
-                <th>Downvotes</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Alice</td>
-                <td>10</td>
-                <td>11</td>
-              </tr>
-              <tr>
-                <td>Bob</td>
-                <td>4</td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>Charlie</td>
-                <td>7</td>
-                <td>9</td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <td>Totals</td>
-                <td>21</td>
-                <td>23</td>
-              </tr>
-            </tfoot>
-          </table>
+            <div id="bs-c" class="p-4 bg-light rounded">
+              <h4 class="fst-italic fw-bold">Archivio articoli</h4>
+              <ol class="list-unstyled mb-0">
+                <li><a href="#aboutGennaio">Gennaio 2022</a></li>
+                <li><a href="#aboutFebbraio">Febbraio 2022</a></li>
+                <li><a href="#aboutMarzo">Marzo 2022</a></li>
+                <li><a href="#aboutMaggio">Maggio 2022</a></li>
+                <li><a href="#aboutGiugno">Giugno 2022</a></li>
+                <li><a href="#aboutBarba">Barbascura</a></li>
+              </ol>
+            </div>
 
-          <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly
-            repetitive body text used throughout.</p>
-        </article>
-
-        <article class="blog-post">
-          <h2 class="blog-post-title">New feature</h2>
-          <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
-
-          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and
-            show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
-            demonstration flowing, so be on the lookout for this exact same string of text.</p>
-          <ul>
-            <li>First list item</li>
-            <li>Second list item with a longer description</li>
-            <li>Third list item to close it out</li>
-          </ul>
-          <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly
-            repetitive body text used throughout.</p>
-        </article>
-
-        <nav class="blog-pagination" aria-label="Pagination">
-          <a class="btn btn-outline-primary" href="#">Older</a>
-          <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
-        </nav>
-
-      </div>
-
-      <div class="col-md-4">
-        <div class="position-sticky" style="top: 2rem;">
-          <div class="p-4 mb-3 bg-light rounded">
-            <h4 class="fst-italic">About</h4>
-            <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers,
-              content, or something else entirely. Totally up to you.</p>
-          </div>
-
-          <div class="p-4">
-            <h4 class="fst-italic">Archives</h4>
-            <ol class="list-unstyled mb-0">
-              <li><a href="#">March 2021</a></li>
-              <li><a href="#">February 2021</a></li>
-              <li><a href="#">January 2021</a></li>
-              <li><a href="#">December 2020</a></li>
-              <li><a href="#">November 2020</a></li>
-              <li><a href="#">October 2020</a></li>
-              <li><a href="#">September 2020</a></li>
-              <li><a href="#">August 2020</a></li>
-              <li><a href="#">July 2020</a></li>
-              <li><a href="#">June 2020</a></li>
-              <li><a href="#">May 2020</a></li>
-              <li><a href="#">April 2020</a></li>
-            </ol>
-          </div>
-
-          <div class="p-4">
-            <h4 class="fst-italic">Elsewhere</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Facebook</a></li>
-            </ol>
+            <div id="bs-c" class="p-4 mt-3 bg-light rounded">
+              <h4 id="contatti" class="fst-italic fw-bold">Contatti</h4>
+              <ol class="list-unstyled">
+                <li><a target="_blank" href="https://www.gmail.com/">Email: blogx@gmail.com</a></li>
+                <li><a href="tel:+4733378901">Telefono: +47 333 78 901</a></li>
+                <li><a target="_blank" href="https://it-it.facebook.com/">Facebook: Blogx</a></li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"></script>
+    </section>
   </main>
 
-  <footer class="blog-footer">
-    <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a
-        href="https://twitter.com/mdo">@mdo</a>.</p>
+  <footer class="blog-footer bg-light bg-opacity-75 mt-5">
+    <p>
+      Ricordati di seguirci su:
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-twitch"></i>
+    </p>
     <p>
       <a href="#">Torna su</a>
     </p>
+    <p>Copyright <i class="fa-solid fa-copyright"></i> 2022 || Tutti i diritti sono riservati.</p>
   </footer>
 
-
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
