@@ -1,20 +1,15 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-a {
   text-decoration: none;
 }
 
-/* .img-fluid {
-  height: 60px;
-  width: 60 px;
-} */
-
 body {
-  background-image: url("https://cdn.discordapp.com/attachments/1055841204979376178/1059478724531191898/giornali-informazione.jpg");
+  background-image: url("https://img.freepik.com/premium-vector/newspapers-collage_23-2147495904.jpg?w=740");
+  /* background-repeat: no-repeat; */
   background-position: center;
+  /* background-size: cover; */
 }
+
 
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -40,11 +35,16 @@ body {
 }
 
 .blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
   font-size: 2.25rem;
 }
 
 .blog-header-logo:hover {
   text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
 }
 
 .display-4 {
@@ -66,6 +66,7 @@ body {
   z-index: 2;
   height: 2.75rem;
   overflow-y: hidden;
+
 }
 
 .collapse.navbar-collapse {
@@ -81,13 +82,9 @@ body {
   flex: 0 0 auto;
 }
 
-.h-250 {
-  height: 250px;
-}
+.h-250 { height: 250px; }
 @media (min-width: 768px) {
-  .h-md-250 {
-    height: 250px;
-  }
+  .h-md-250 { height: 250px; }
 }
 
 /* Pagination */
@@ -105,7 +102,7 @@ body {
   margin-bottom: 4rem;
 }
 .blog-post-title {
-  margin-bottom: 0.25rem;
+  margin-bottom: .25rem;
   font-size: 2.5rem;
 }
 .blog-post-meta {
@@ -120,7 +117,8 @@ body {
   padding: 2.5rem 0;
   color: #727272;
   text-align: center;
-  border-top: 0.05rem solid #e5e5e5;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
