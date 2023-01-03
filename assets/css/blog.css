@@ -106,18 +106,30 @@ body {
 }
 .blog-post-title {
   margin-bottom: 0.25rem;
-  font-size: 2.5rem;
 }
 .blog-post-meta {
   margin-bottom: 1.25rem;
   color: #727272;
 }
 
+hr {
+  height: 5px;
+  background-color: black;
+}
+
+#bs-c {
+  box-shadow: 7px 5px 6px -2px rgba(28,28,28,0.69);
+}
+
+.position-sticky {
+  top: 0;
+}
+
 /*
  * Footer
  */
 .blog-footer {
-  padding: 2.5rem 0;
+  padding: 1rem 0;
   color: #727272;
   text-align: center;
   border-top: 0.05rem solid #e5e5e5;
