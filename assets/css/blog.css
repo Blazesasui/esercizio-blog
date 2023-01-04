@@ -123,23 +123,40 @@ hr {
   .h-md-250 {
     height: 250px;
   }
-}
-
-@media (min-width: 768px) {
   .display-4 {
     font-size: 3rem;
   }
-}
-
-@media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
+  }
+  iframe {
+    height: 300px;
+    width: 100%;
+  }
+  img, .rounded-start {
+    height: 120px;
+  }
+  .mq-img {
+    height: 248px;
+  }
+  ul, .navbar-nav {
+    gap: 10px!important;
   }
 }
 
 @media (min-width: 1024px) {
   iframe {
     height: 400px;
-    width: 600px;
+    width: 100%;
+  }
+}
+
+@media (max-width:767px) {
+  iframe {
+    height: 300px;
+    width: 100%;
+  }
+  .row.p-4 {
+    margin-top: 10px!important;
   }
 }
