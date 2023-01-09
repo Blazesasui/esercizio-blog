@@ -144,6 +144,9 @@ hr {
   .navbar-nav {
     gap: 10px !important;
   }
+  div.row.g-0 {
+    height: 320px;
+  }
 }
 
 @media (min-width: 1024px) {
